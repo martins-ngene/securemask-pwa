@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import styles from "@/styles/home.module.css";
 import Logo from "@/components/logo";
-import { Button, SignInWithGoogleBtn, SubmitBtn } from "@/components/buttons";
+import { SignInWithGoogleBtn, SubmitBtn } from "@/components/buttons";
 
 export default function Home() {
   return (
@@ -10,8 +10,6 @@ export default function Home() {
       <div className={styles.form_container}>
         <div className={styles.logo_container}>
           <Logo />
-
-          <Button label='Download App' isFilled />
         </div>
         <h1 className={styles.header}>Create Account</h1>
         <p className={styles.welcome_text}>For anyone in need of security.</p>
